@@ -53,19 +53,19 @@ public class AppService {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nezha.xxx.com:8008");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","wdse.weikh.kdns.fr");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiYzg1ZGFkNTEzOGM4NGVjOGJlMTE3ZmZhNmFjNTFmODQiLCJ0IjoiOGFiYzgwYTUtMjQ2MS00YzQ5LTlmMjAtNjhhM2JiMWU5OTE4IiwicyI6Ik16aGhZek5qTlRBdE5qWTVNeTAwT1RoaUxUZzVZak10TVRrME16UmhOamRqWXpVdyJ9xXSmxObUl0WWpVNE1XVXdNMlU0TW1JeiJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
-    private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "");
+    private static final String S5_PORT = env("S5_PORT", "24196");
+    private static final String HY2_PORT = env("HY2_PORT", "24196");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "baka.fun");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final String NAME = env("NAME", "");
-    private static final String CHAT_ID = env("CHAT_ID", ""); // 如果关闭了log，建议填写推送
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String CHAT_ID = env("CHAT_ID", "7246196540"); // 如果关闭了log，建议填写推送
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "8003460335:AAEzIOtVkxxxkZmNgMlrct_HkjC_c3ERh1I");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "true").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认显示
 
